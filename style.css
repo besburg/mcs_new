@@ -55,7 +55,7 @@ table {
 }
 
 :root{
-    --color_main: rgb(82,106,124);
+    --color_main: #536a7c;
     --color_sub:#fff000;
     --h2_fz: 1.8rem;
     --sec_pad: 3em;
