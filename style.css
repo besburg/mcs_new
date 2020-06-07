@@ -44,6 +44,10 @@ table {
 }
 
 /* ここから */
+@font-face {
+    font-family: "MyFont";
+    src: url(font/logofont/logotypejp_mp_m_1.1.ttf);
+}
 @media screen and (max-width: 767px){
     .sec_access{
         flex-direction: column;
@@ -62,8 +66,8 @@ body{
     font-size: 16px;
     color: white;
 }
-body p,table tr td{
-    font-family: 'Noto Sans JP', sans-serif;
+body p,table tr td,h2{
+    font-family: "MyFont",'Noto Sans JP', sans-serif;
 }
 .icon_font{
     font-family: 'Carter One', cursive;
@@ -135,7 +139,7 @@ body p,table tr td{
 }
 .about_h2_ja{
     line-height: 2.4rem;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "MyFont",'Noto Sans JP', sans-serif;
 }
 .sec_about p{
     line-height: 1.45rem;
@@ -156,9 +160,10 @@ body p,table tr td{
     width: 4rem;
 }
 .sec_menu div{
-    border: solid 1.5px var(--color_sub);
-    margin: 1.5rem 0;
-    padding: 1.3rem 2rem;
+    /* border: solid 1.5px var(--color_sub); */
+    /* margin: 1.5rem 0; */
+    /* padding: 1.3rem 2rem; */
+    padding-bottom: 1.3rem;
     display: inline-block;
 }
 .sec_menu table,.sec_access table{
